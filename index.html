@@ -1,1 +1,43 @@
-dd
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>히라! 우리 뭐 먹어</title>
+  <link rel="stylesheet" href="style.css" />
+ <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+
+</head>
+<body>
+  <div class="machine">
+    <h1>돌려돌려</h1>
+
+    <div class="slot-box">
+      
+      <div class="arrow left-arrow">
+        <svg viewBox="0 0 24 24" width="36" height="36" fill="#ffcc00">
+          <path d="M15.41 16.59L10.83 12l4.58-4.59L14 6l-6 6 6 6z"/>
+        </svg>
+      </div>
+
+      <div class="slot-window">
+        <div class="slot-strip" id="slot">
+          
+        </div>
+      </div>
+
+      
+      <div class="arrow right-arrow">
+        <svg viewBox="0 0 24 24" width="36" height="36" fill="#ffcc00">
+          <path d="M8.59 16.59L13.17 12 8.59 7.41 10 6l6 6-6 6z"/>
+        </svg>
+      </div>
+    </div>
+
+    <button onclick="spin()">가자잇!!</button>
+    <p id="result"></p>
+  </div>
+<!-- 그냥 1.0.8이 가장 완벽함 메뉴 추가 외에 건드리지마라 -->
+  <script src="script.js?v=1.0.8"></script>
+</body>
+</html>
