@@ -1,10 +1,23 @@
 const MENU_ITEMS = [
-  
+  { icon: "😍", label: "CU ㄱㄱ" },
   { icon: "😍", label: "텃밭식당" },
-  { icon: "😍", label: "돌짜장" },
+  { icon: "😍", label: "반곡돌위에짜장" },
   { icon: "😍", label: "맘스터치" },
   { icon: "😍", label: "용우동" },
   { icon: "😍", label: "서브웨이" },
+  { icon: "😍", label: "미식가" },
+  { icon: "😍", label: "파스타나야" },
+  { icon: "😍", label: "펜을든부엉이" },
+  { icon: "😍", label: "앤트빌라" },
+  { icon: "😍", label: "농가" },
+  { icon: "😍", label: "삼청당" },
+  { icon: "😍", label: "닝샤샤" },
+  { icon: "😍", label: "엘린스브런치" },
+  { icon: "😍", label: "산쪼메" },
+  { icon: "😍", label: "온기" },
+  { icon: "😍", label: "해바라기식당" },
+  { icon: "😍", label: "호이시" },
+  { icon: "😍", label: "일식당" },
 ];
 
 const slotStrip = document.getElementById("slot");
