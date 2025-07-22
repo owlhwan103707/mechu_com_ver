@@ -92,7 +92,7 @@ h1 {
 }
 
 button {
-  background: linear-gradient(to right, #ff0000, #ff6600);
+  background: linear-gradient(to right, #a8edea, #6dd5ed, #55efc4, #00b894);
   color: white;
   font-size: 16px;
   padding: 12px 30px;
@@ -100,7 +100,7 @@ button {
   border-radius: 30px;
   cursor: pointer;
   font-family: 'Press Start 2P', cursive;
-  box-shadow: 0 4px 15px rgba(255, 0, 0, 0.4);
+  box-shadow: 0 0 20px rgba(0, 184, 148, 0.5); /* 초록 그림자 */
   transition: transform 0.2s;
 }
 
