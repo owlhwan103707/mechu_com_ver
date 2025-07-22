@@ -4,6 +4,7 @@ const MENU_ITEMS = [
   { icon: "😍", label: "돌짜장" },
   { icon: "😍", label: "맘스터치" },
   { icon: "😍", label: "용우동" },
+  { icon: "😍", label: "서브웨이" },
 ];
 
 const slotStrip = document.getElementById("slot");
