@@ -64,7 +64,7 @@ function fireConfetti() {
 
 
 function showResult(text) {
-  resultEl.innerHTML = `오늘은 <br>${text}! 먹어요!`;  // ✅ 줄바꿈으로 두 줄 구성
+  resultEl.innerHTML = `오늘은 <br>${text}! 먹어요~`;  
 
   resultEl.classList.remove("celebrate");
   void resultEl.offsetWidth;
